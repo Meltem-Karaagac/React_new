@@ -1,11 +1,10 @@
-import Head from "next/head";
-import SvgComponent from "../components/icon/Add";
+import Layout from "../components/layout/Layout";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <SvgComponent />
-    </div>
+    <Layout>
+      <p> main layout</p>
+    </Layout>
   );
 }
